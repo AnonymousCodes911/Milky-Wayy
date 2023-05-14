@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@drawable/img_whatsappimage_153x130"
+        android:label="Milky-Wayy" android:largeHeap="true"
+        android:name="com.utkarshsapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@drawable/img_whatsappimage_153x130"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdviewnone.ui.RdViewNOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.ndview2.ui.NdView2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview4.ui.RdView4Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.ndview3.ui.NdView3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview2.ui.ThView2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview4.ui.ThView4Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview2.ui.RdView2Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview3.ui.RdView3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview3.ui.ThView3Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview5.ui.ThView5Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview1one.ui.RdView1OneActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.utkarshsapplication.app.modules.stview.ui.StViewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview7.ui.ThView7Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview6.ui.ThView6Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview2one.ui.RdView2OneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.ndview1.ui.NdView1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview2one.ui.ThView2OneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdviewn.ui.RdViewNActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview1.ui.ThView1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview8.ui.ThView8Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview9.ui.ThView9Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.thview1one.ui.ThView1OneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview1.ui.RdView1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.utkarshsapplication.app.modules.rdview3one.ui.RdView3OneActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

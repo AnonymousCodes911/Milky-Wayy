@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView3VM" type="com.utkarshsapplication.app.modules.thview3.data.viewmodel.ThView3VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear4thview3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtHeyAkanksha"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_59pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{thView3VM.thView3Model.txtHeyAkanksha}"
+            style="@style/txtInterbold30" tools:text="@string/lbl_hey_akanksha"/>
+        <Spinner
+            android:background="@drawable/layer_list_bg_gray_300_border_black_900_radius_10"
+            android:gravity="center_horizontal"
+            android:id="@+id/spinnerGroupFortyFour"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_205pxv"
+            android:layout_width="match_parent" tools:listitem="@layout/spinner_item"/>
+    </LinearLayout>
+</layout>

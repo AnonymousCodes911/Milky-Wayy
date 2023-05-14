@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="rdViewNOneVM" type="com.utkarshsapplication.app.modules.rdviewnone.data.viewmodel.RdViewNOneVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear3rdviewnOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <ImageView android:id="@+id/imageFingerprintrem"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_116pxh"
+            android:layout_marginEnd="@dimen/_54pxh"
+            android:layout_marginStart="@dimen/_54pxh"
+            android:layout_marginTop="@dimen/_151pxv"
+            android:layout_width="@dimen/_122pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_fingerprintrem}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_fingerprintrem"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtScanYourFinge"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_53pxh"
+            android:layout_marginStart="@dimen/_54pxh"
+            android:layout_marginTop="@dimen/_78pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{rdViewNOneVM.rdViewNOneModel.txtScanYourFinge}"
+            style="@style/txtInterlight25" tools:text="@string/msg_scan_your_finge"/>
+    </LinearLayout>
+</layout>

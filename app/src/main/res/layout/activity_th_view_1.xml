@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView1VM" type="com.utkarshsapplication.app.modules.thview1.data.viewmodel.ThView1VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear4thview1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtHeyAkanksha"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_62pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{thView1VM.thView1Model.txtHeyAkanksha}"
+            style="@style/txtInterbold30" tools:text="@string/lbl_hey_akanksha"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtGroupThirtyOne"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_198pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_5pxv"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_8pxv" android:singleLine="true"
+            android:text="@{thView1VM.thView1Model.txtGroupThirtyOne}"
+            style="@style/txtSolidRoundedOutline_1" tools:text="@string/lbl_language"/>
+    </LinearLayout>
+</layout>

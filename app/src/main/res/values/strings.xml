@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">MilkyWayy</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_continue">Continue</string>
+<string name="lbl_rs_63_l">Rs 63/L</string>
+<string name="lbl_2_5_km">2.5 km</string>
+<string name="lbl_yogurt">Yogurt</string>
+<string name="lbl_mobile_no">Mobile No.</string>
+<string name="lbl_home">Home</string>
+<string name="msg_the_sellers_sha">The sellers shall retrieve your request and ensure timely delivery each day! You have the option to monitor the delivery status and maintain a monthly record of the corresponding costs incurred for the orders fulfilled.</string>
+<string name="lbl_harish_kumar">Harish Kumar</string>
+<string name="msg_sign_in_sign_u">Sign In/ Sign Up</string>
+<string name="lbl_3_km">3 km</string>
+<string name="msg_scan_your_finge">Scan Your Fingerprint</string>
+<string name="lbl_rs_56_l">Rs 56/L</string>
+<string name="lbl_vendors">Vendors</string>
+<string name="lbl_rs_75_l">Rs 75/L</string>
+<string name="lbl_rs_70_l">Rs 70/L</string>
+<string name="lbl_may">
+May</string>
+<string name="msg_one_can_conveni">One can conveniently pre-arrange and secure a periodic delivery of milk while also keeping track of the cost per litre. Avail the most splendid experience!</string>
+<string name="lbl_features">Features</string>
+<string name="lbl_notifications">Notifications</string>
+<string name="lbl_1_5_km">1.5 km</string>
+<string name="lbl_ram_yadav">Ram Yadav</string>
+<string name="msg_forgot_password">Forgot Password ?</string>
+<string name="msg_create_your_new">Create your new account</string>
+<string name="lbl_hindi">Hindi</string>
+<string name="lbl_month">Month</string>
+<string name="msg_block_a_alpha">
+Block A, Alpha 2 Noida, U.P</string>
+<string name="msg_scan_your_finge2">Scan Your Fingerprint...</string>
+<string name="lbl_select">Select</string>
+<string name="lbl_ajay_singh">Ajay Singh</string>
+<string name="lbl_ice_cream">Ice-Cream</string>
+<string name="msg_or_continue_wit">or continue with</string>
+<string name="lbl_vendor">Vendor</string>
+<string name="lbl_mohit_lodhi">Mohit Lodhi</string>
+<string name="lbl_add_photo2">Add Photo</string>
+<string name="msg_continue_with_e">Continue with Email</string>
+<string name="lbl_5_km">5 km</string>
+<string name="lbl_tarun_sinha">Tarun Sinha</string>
+<string name="lbl_2023">
+2023</string>
+<string name="lbl_akanksha_garg">Akanksha Garg</string>
+<string name="lbl_consumer"> Consumer</string>
+<string name="msg_umm_no_notifi">Umm, 
+No Notifications Yet!!</string>
+<string name="msg_akankshagarg3012">
+akankshagarg3010@gmail.com</string>
+<string name="lbl_buttermilk">Buttermilk</string>
+<string name="lbl_91_8873532">+91 887353****</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_language">Language</string>
+<string name="lbl_manish_singh">Manish Singh</string>
+<string name="lbl_account">Account</string>
+<string name="lbl_add_photo">
+Add Photo</string>
+<string name="lbl_english">English</string>
+<string name="msg_search_for_prod">Search For Products</string>
+<string name="lbl_shushil_kumar">Shushil Kumar</string>
+<string name="msg_by_continuing_y">By continuing you agree  to our Terms and Conditions and Privacy Policy</string>
+<string name="lbl_previous">Previous</string>
+<string name="lbl_sunny">Sunny</string>
+<string name="lbl_categories">Categories</string>
+<string name="msg_block_a_alpha2">Block A, Alpha 2 Noida, U.P</string>
+<string name="lbl_calendar">Calendar</string>
+<string name="lbl_finish">Finish</string>
+<string name="lbl_rs_58_l">Rs 58/L</string>
+<string name="lbl_log_in">Log in</string>
+<string name="lbl_ramesh_kumar">Ramesh Kumar</string>
+<string name="lbl_1_km">1 km</string>
+<string name="msg_we_ll_show_you">"We'll show You milk vendors and varieties of milk items from your nearest location at your city.
+Choose anything that you want."</string>
+<string name="lbl_delivery">Delivery</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="lbl_sign_up">Sign Up</string>
+<string name="lbl_sign_up2">Sign up</string>
+<string name="lbl_name">Name</string>
+<string name="lbl_91_887353">
++91 887353****</string>
+<string name="msg_welcome_to_mil">Welcome  to Milk
+Managing App</string>
+<string name="lbl_skip">Skip</string>
+<string name="lbl_profile">Profile</string>
+<string name="lbl">************</string>
+<string name="msg_log_back_into_y">Log back into your account</string>
+<string name="lbl_rs_69_l">Rs 69/L</string>
+<string name="lbl_choose">Choose</string>
+<string name="msg_akankshagarg301">akankshagarg3010@gmail.com</string>
+<string name="lbl_rs_65_l">Rs 65/L</string>
+<string name="lbl_email">Email</string>
+<string name="lbl_rs_60_l">Rs 60/L</string>
+<string name="msg_search_for_vend">Search For Vendors</string>
+<string name="lbl_year">Year</string>
+<string name="lbl_2_km">2 km</string>
+<string name="lbl_utkarsh_kumar">Utkarsh Kumar</string>
+<string name="lbl_butter">Butter</string>
+<string name="lbl_custard">Custard</string>
+<string name="lbl_sunny2">
+Sunny</string>
+<string name="lbl_next_step">Next Step</string>
+<string name="lbl_milk">Milk</string>
+<string name="lbl_0_5_km">0.5 km</string>
+<string name="lbl_akanksha_garg2">
+Akanksha Garg</string>
+<string name="lbl_manan_bansal">Manan Bansal</string>
+<string name="lbl_welcome_back">Welcome back</string>
+<string name="lbl_hey_akanksha">Hey Akanksha!!</string>
+<string name="lbl_ghee">Ghee</string>
+<string name="lbl_explore">Explore</string>
+<string name="lbl_cheese">Cheese</string>
+<string name="lbl_address">Address</string>
+<string name="lbl_4_km">4 km</string>
+<string name="lbl_paneer">Paneer</string>
+<string name="msg_add_your_finger">Add Your Fingerprint</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+</resources>
