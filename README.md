@@ -83,6 +83,6 @@ Milky-Wayy is open-source software released under the [MIT License](https://open
 
 ## Contact
 
-If you have any questions, suggestions, or feedback regarding Milky-Wayy, please contact the development team at milky-wayy-support@example.com.
+If you have any questions, suggestions, or feedback regarding Milky-Wayy, please contact the development team at [Manan Bansal](manan.bansal.1806@gmail.com),[Utkarsh Kumar](backuputk@gmail.com).
 
 Happy delivering with Milky-Wayy!
