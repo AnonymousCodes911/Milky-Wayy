@@ -1,5 +1,5 @@
 
-# utkarsh_s_application
+# Milky-Wayy
 
 Built with AndroidX Support
 
@@ -30,10 +30,6 @@ https://material.io/develop/android
 4. koin - Dependency Injection
 https://insert-koin.io/
 
-### Figma design guideline for better accuracy
-
-Read our guidelines to increase the accuracy of design conversion to code by optimizing Figma designs. 
-https://docs.dhiwise.com/docs/Designguidelines/intro .
 
 ### App Navigation
 
