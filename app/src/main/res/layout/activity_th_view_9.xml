@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView9VM" type="com.utkarshsapplication.app.modules.thview9.data.viewmodel.ThView9VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear4thview2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtHeyAkanksha"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_22pxh"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_marginTop="@dimen/_44pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{thView9VM.thView9Model.txtHeyAkanksha}"
+            style="@style/txtInterbold30" tools:text="@string/lbl_hey_akanksha"/>
+        <FrameLayout android:id="@+id/frameStackchoose"
+            android:layout_gravity="end"
+            android:layout_height="@dimen/_141pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_77pxh"
+            android:layout_marginStart="@dimen/_77pxh"
+            android:layout_marginTop="@dimen/_176pxv" android:layout_width="@dimen/_176pxh">
+            <LinearLayout android:id="@+id/linearColumnchoose"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_900">
+                <TextView android:ellipsize="end"
+                    android:gravity="start" android:id="@+id/txtChoose"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_13pxv"
+                    android:layout_marginEnd="@dimen/_18pxh"
+                    android:layout_marginStart="@dimen/_18pxh"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{thView9VM.thView9Model.txtChoose}"
+                    style="@style/txtIntermedium25" tools:text="@string/lbl_choose"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearColumnvendor"
+                android:layout_gravity="bottom|end"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="wrap_content"
+                android:orientation="vertical" style="@style/groupStylegray_100">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtVendor"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_39pxh"
+                    android:layout_marginStart="@dimen/_39pxh"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{thView9VM.thView9Model.txtVendor}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_vendor"/>
+                <View android:background="@color/black_900"
+                    android:id="@+id/lineLineOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_9pxv" android:layout_width="@dimen/_168pxh"/>
+                <TextView android:ellipsize="end"
+                    android:gravity="start"
+                    android:id="@+id/txtLanguage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_27pxh"
+                    android:layout_marginStart="@dimen/_27pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{thView9VM.thView9Model.txtLanguage}"
+                    style="@style/txtInterregular20" tools:text="@string/lbl_consumer"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView4VM" type="com.utkarshsapplication.app.modules.thview4.data.viewmodel.ThView4VM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear4thview4"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtHeyAkanksha"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_58pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{thView4VM.thView4Model.txtHeyAkanksha}"
+            style="@style/txtInterbold30" tools:text="@string/lbl_hey_akanksha"/>
+        <FrameLayout android:id="@+id/frameStackselect"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_149pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_202pxv" android:layout_width="@dimen/_250pxh">
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnSelect"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_7pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_7pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_select"
+                android:textAllCaps="false"
+                style="@style/btnSolidRoundedOutline_1" tools:text="@string/lbl_select"/>
+            <LinearLayout android:id="@+id/linearColumnvendor"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_3">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtVendor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_90pxh"
+                    android:layout_marginStart="@dimen/_90pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{thView4VM.thView4Model.txtVendor}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_vendor"/>
+                <FrameLayout android:id="@+id/frameStacklanguage"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_50pxv"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginTop="@dimen/_5pxv" android:layout_width="@dimen/_250pxh">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtLanguage"
+                        android:layout_gravity="top|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_75pxh"
+                        android:layout_marginStart="@dimen/_75pxh"
+                        android:layout_marginTop="@dimen/_9pxv"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        android:text="@{thView4VM.thView4Model.txtLanguage}"
+                        style="@style/txtInterregular20" tools:text="@string/lbl_consumer"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_lime_700_21_radius_5"
+                        android:id="@+id/viewRectangleNine"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_250pxh"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

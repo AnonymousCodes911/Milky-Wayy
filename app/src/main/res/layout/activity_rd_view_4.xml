@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="rdView4VM" type="com.utkarshsapplication.app.modules.rdview4.data.viewmodel.RdView4VM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear3rdview4"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <ImageView android:id="@+id/imageFingerprintrem"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_116pxh"
+            android:layout_marginEnd="@dimen/_59pxh"
+            android:layout_marginStart="@dimen/_59pxh"
+            android:layout_marginTop="@dimen/_151pxv"
+            android:layout_width="@dimen/_122pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_fingerprintrem}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_fingerprintrem"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAddYourFinger"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_59pxh"
+            android:layout_marginStart="@dimen/_59pxh"
+            android:layout_marginTop="@dimen/_79pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{rdView4VM.rdView4Model.txtAddYourFinger}"
+            style="@style/txtInterlight25" tools:text="@string/msg_add_your_finger"/>
+    </LinearLayout>
+</layout>

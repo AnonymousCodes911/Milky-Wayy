@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView1OneVM" type="com.utkarshsapplication.app.modules.thview1one.data.viewmodel.ThView1OneVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linear4thview1One"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <TextView android:ellipsize="end" android:gravity="start"
+            android:id="@+id/txtHeyAkanksha"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_41pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{thView1OneVM.thView1OneModel.txtHeyAkanksha}"
+            style="@style/txtInterbold30" tools:text="@string/lbl_hey_akanksha"/>
+        <FrameLayout android:id="@+id/frameStackgroupthirtyfive"
+            android:layout_gravity="end"
+            android:layout_height="@dimen/_150pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_57pxh"
+            android:layout_marginStart="@dimen/_57pxh"
+            android:layout_marginTop="@dimen/_183pxv" android:layout_width="@dimen/_221pxh">
+            <TextView android:ellipsize="end"
+                android:gravity="top|start"
+                android:id="@+id/txtGroupThirtyFive"
+                android:layout_gravity="top|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_10pxv"
+                android:paddingStart="@dimen/_18pxh"
+                android:paddingTop="@dimen/_12pxv"
+                android:singleLine="true"
+                android:text="@{thView1OneVM.thView1OneModel.txtGroupThirtyFive}"
+                style="@style/txtSolidOutline" tools:text="@string/lbl_language"/>
+            <LinearLayout android:id="@+id/linearColumnlanguageOne"
+                android:layout_gravity="bottom|end"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylegray_100">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguageOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_59pxh"
+                    android:layout_marginStart="@dimen/_64pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{thView1OneVM.thView1OneModel.txtLanguageOne}"
+                    style="@style/txtInterregular20" tools:text="@string/lbl_english"/>
+                <View android:background="@color/black_900"
+                    android:id="@+id/lineLineOne"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_12pxv" android:layout_width="@dimen/_191pxh"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLanguageTwo"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_64pxh"
+                    android:layout_marginStart="@dimen/_64pxh"
+                    android:layout_marginTop="@dimen/_12pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    android:text="@{thView1OneVM.thView1OneModel.txtLanguageTwo}"
+                    style="@style/txtInterregular20_1" tools:text="@string/lbl_hindi"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

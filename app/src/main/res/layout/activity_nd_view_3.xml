@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="ndView3VM" type="com.utkarshsapplication.app.modules.ndview3.data.viewmodel.NdView3VM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linear2ndview3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <ImageView android:id="@+id/imageDeliveryremove"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_251pxh"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_58pxv"
+            android:layout_width="@dimen/_266pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_deliveryremove}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_deliveryremove"/>
+        <LinearLayout android:id="@+id/linearColumndelivery"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_45pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtDelivery"
+                android:layout_gravity="start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{ndView3VM.ndView3Model.txtDelivery}"
+                style="@style/txtInterbold30" tools:text="@string/lbl_delivery"/>
+            <TextView android:gravity="start"
+                android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_12pxv"
+                android:layout_width="match_parent"
+                android:text="@{ndView3VM.ndView3Model.txtDescription}"
+                style="@style/txtInterthin16" tools:text="@string/msg_the_sellers_sha"/>
+
+            <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                android:id="@+id/indicatorSignal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_37pxv"
+                android:layout_width="wrap_content"
+                app:drawable_normal="@drawable/indicator_unselected_bg_gray_600_7f1_radius_8"
+                app:drawable_selected="@drawable/indicator_selected_bg_black_900_radius_8"
+                app:indicator_size="@dimen/_9pxh" app:indicator_spacing="@dimen/_18pxh"/>
+            <LinearLayout android:id="@+id/linearRowprevious"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_23pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnPrevious"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_5pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_5pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_previous"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline" tools:text="@string/lbl_previous"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnFinish"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_49pxh"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_5pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_5pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_finish"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded" tools:text="@string/lbl_finish"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

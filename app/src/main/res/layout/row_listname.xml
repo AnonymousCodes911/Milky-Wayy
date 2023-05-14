@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listnameRowModel" type="com.utkarshsapplication.app.modules.thview7.data.model.ListnameRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtName"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_weight="0.16" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{listnameRowModel.txtName}"
+            style="@style/txtIntersemibold16" tools:text="@string/lbl_name"/>
+        <FrameLayout android:id="@+id/frameStackakankshagarg"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginStart="@dimen/_44pxh" android:layout_width="@dimen/_240pxh">
+            <TextView android:id="@+id/txtAkankshaGarg"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_9pxv"
+                android:layout_marginEnd="@dimen/_34pxh"
+                android:layout_marginStart="@dimen/_34pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="wrap_content"
+                android:text="@{listnameRowModel.txtAkankshaGarg}"
+                style="@style/txtIntersemibold14" tools:text="@string/lbl_akanksha_garg2"/>
+            <View android:background="@color/lime_700_21"
+                android:id="@+id/viewRectangleTwelve"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_38pxv" android:layout_width="@dimen/_240pxh"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

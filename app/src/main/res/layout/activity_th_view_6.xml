@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="thView6VM" type="com.utkarshsapplication.app.modules.thview6.data.viewmodel.ThView6VM"/>
+    </data>
+    <LinearLayout android:gravity="end"
+        android:id="@+id/linearColumngroupfifteen"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_3pxh"
+        android:layout_marginTop="@dimen/_31pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_300">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linear5thview3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylegray_300">
+            <TextView android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:id="@+id/txtGroupFifteen"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_width="match_parent"
+                android:paddingBottom="@dimen/_13pxv"
+                android:paddingStart="@dimen/_19pxh"
+                android:paddingTop="@dimen/_13pxv"
+                android:singleLine="true"
+                android:text="@{thView6VM.thView6Model.txtGroupFifteen}"
+                style="@style/txtSolid" tools:text="@string/lbl_notifications"/>
+            <FrameLayout android:id="@+id/frameStackummnonotific"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_298pxv"
+                android:layout_marginEnd="@dimen/_26pxh"
+                android:layout_marginStart="@dimen/_28pxh"
+                android:layout_marginTop="@dimen/_54pxv" android:layout_width="@dimen/_302pxh">
+                <ImageView android:id="@+id/imageWhatsAppImage"
+                    android:layout_gravity="bottom|end"
+                    android:layout_height="@dimen/_257pxh"
+                    android:layout_marginEnd="@dimen/_40pxh"
+                    android:layout_marginStart="@dimen/_40pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="@dimen/_204pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_whatsappimage_257x204}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_whatsappimage_257x204"/>
+                <TextView android:gravity="top|start"
+                    android:id="@+id/txtUmmNoNotific"
+                    android:layout_gravity="top|start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:text="@{thView6VM.thView6Model.txtUmmNoNotific}"
+                    style="@style/txtIntermedium30" tools:text="@string/msg_umm_no_notifi"/>
+            </FrameLayout>
+            <View android:background="@color/gray_600_7f1"
+                android:id="@+id/lineLineTen"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_138pxv" android:layout_width="@dimen/_357pxh"/>
+            <View android:background="@color/gray_600_7f1"
+                android:id="@+id/lineLineTwelve"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_357pxh"/>
+            <View android:background="@color/gray_600_7f1"
+                android:id="@+id/lineLineEleven"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_1pxv" android:layout_width="@dimen/_357pxh"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10pxh" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearRowhome"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_7pxv"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearColumnhome"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageHome"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_17pxh"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_home_black_900"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_home_black_900"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtHomeOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{thView6VM.thView6Model.txtHomeOne}"
+                        style="@style/txtInterregular10_1" tools:text="@string/lbl_home"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumncalendar"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageCalendar"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_width="@dimen/_18pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_calendar"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_calendar"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtCalendarOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{thView6VM.thView6Model.txtCalendarOne}"
+                        style="@style/txtInterregular10_1" tools:text="@string/lbl_calendar"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumnnotification"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageNotification"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_19pxh"
+                        android:layout_width="@dimen/_16pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_notification_indigo_a700"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_notification_indigo_a700"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtNotificationsOne"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{thView6VM.thView6Model.txtNotificationsOne}"
+                        style="@style/txtInterregular10" tools:text="@string/lbl_notifications"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearColumnicoutlineacco"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageIcoutlineacco"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_marginTop="@dimen/_2pxv"
+                        android:layout_width="@dimen/_20pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_icoutlineacco"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_icoutlineacco"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtAccount"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{thView6VM.thView6Model.txtAccount}"
+                        style="@style/txtInterregular10_1" tools:text="@string/lbl_account"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearColumnuser"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="1" android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:id="@+id/imageUser"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_width="@dimen/_21pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_user"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_user"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtVendors"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_2pxh"
+                        android:layout_marginStart="@dimen/_2pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{thView6VM.thView6Model.txtVendors}"
+                        style="@style/txtInterregular10_1" tools:text="@string/lbl_vendors"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>
