@@ -44,12 +44,12 @@ Block A, Alpha 2 Noida, U.P</string>
 <string name="lbl_tarun_sinha">Tarun Sinha</string>
 <string name="lbl_2023">
 2023</string>
-<string name="lbl_akanksha_garg">Akanksha Garg</string>
+<string name="lbl_akanksha_garg">Your Name</string>
 <string name="lbl_consumer"> Consumer</string>
 <string name="msg_umm_no_notifi">Umm, 
 No Notifications Yet!!</string>
 <string name="msg_akankshagarg3012">
-akankshagarg3010@gmail.com</string>
+your Email-ID</string>
 <string name="lbl_buttermilk">Buttermilk</string>
 <string name="lbl_91_8873532">+91 887353****</string>
 <string name="lbl_password">Password</string>
@@ -81,15 +81,15 @@ Choose anything that you want."</string>
 <string name="lbl_name">Name</string>
 <string name="lbl_91_887353">
 +91 887353****</string>
-<string name="msg_welcome_to_mil">Welcome  to Milk
+<string name="msg_welcome_to_mil">Welcome  to Milk-Delivery
 Managing App</string>
 <string name="lbl_skip">Skip</string>
 <string name="lbl_profile">Profile</string>
-<string name="lbl">************</string>
+<string name="lbl">Your Password</string>
 <string name="msg_log_back_into_y">Log back into your account</string>
 <string name="lbl_rs_69_l">Rs 69/L</string>
 <string name="lbl_choose">Choose</string>
-<string name="msg_akankshagarg301">akankshagarg3010@gmail.com</string>
+<string name="msg_akankshagarg301">Your Email Address </string>
 <string name="lbl_rs_65_l">Rs 65/L</string>
 <string name="lbl_email">Email</string>
 <string name="lbl_rs_60_l">Rs 60/L</string>
