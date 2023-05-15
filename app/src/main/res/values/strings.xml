@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">utkarsh_s_application</string>
+    <string name="app_name">MilkyWayy</string>
     <string name="loading">Loading…</string>
     <string name="no_internet_connection">No internet connection!</string>
 <string name="lbl_continue">Continue</string>
@@ -30,7 +30,7 @@ May</string>
 <string name="lbl_hindi">Hindi</string>
 <string name="lbl_month">Month</string>
 <string name="msg_block_a_alpha">
-Block A, Alpha 2 Noida, U.P</string>
+Address</string>
 <string name="msg_scan_your_finge2">Scan Your Fingerprint...</string>
 <string name="lbl_select">Select</string>
 <string name="lbl_ajay_singh">Ajay Singh</string>
@@ -49,7 +49,7 @@ Block A, Alpha 2 Noida, U.P</string>
 <string name="msg_umm_no_notifi">Umm, 
 No Notifications Yet!!</string>
 <string name="msg_akankshagarg3012">
-akankshagarg3010@gmail.com</string>
+Your Email</string>
 <string name="lbl_buttermilk">Buttermilk</string>
 <string name="lbl_91_8873532">+91 887353****</string>
 <string name="lbl_password">Password</string>
@@ -81,15 +81,15 @@ Choose anything that you want."</string>
 <string name="lbl_name">Name</string>
 <string name="lbl_91_887353">
 +91 887353****</string>
-<string name="msg_welcome_to_mil">Welcome  to Milk
+<string name="msg_welcome_to_mil">Welcome  to Milk-Delivery
 Managing App</string>
 <string name="lbl_skip">Skip</string>
 <string name="lbl_profile">Profile</string>
-<string name="lbl">************</string>
+<string name="lbl">Your Password</string>
 <string name="msg_log_back_into_y">Log back into your account</string>
 <string name="lbl_rs_69_l">Rs 69/L</string>
 <string name="lbl_choose">Choose</string>
-<string name="msg_akankshagarg301">akankshagarg3010@gmail.com</string>
+<string name="msg_akankshagarg301">Your Email</string>
 <string name="lbl_rs_65_l">Rs 65/L</string>
 <string name="lbl_email">Email</string>
 <string name="lbl_rs_60_l">Rs 60/L</string>
@@ -108,7 +108,7 @@ Sunny</string>
 Akanksha Garg</string>
 <string name="lbl_manan_bansal">Manan Bansal</string>
 <string name="lbl_welcome_back">Welcome back</string>
-<string name="lbl_hey_akanksha">Hey Akanksha!!</string>
+<string name="lbl_hey_akanksha">Hey User!!</string>
 <string name="lbl_ghee">Ghee</string>
 <string name="lbl_explore">Explore</string>
 <string name="lbl_cheese">Cheese</string>
