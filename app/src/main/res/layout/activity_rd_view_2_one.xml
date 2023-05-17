@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:singleLine="true"
             android:text="@{rdView2OneVM.rdView2OneModel.txtAkankshaGarg}"
-            style="@style/txtInterregular14" tools:text="@string/lbl_akanksha_garg"/>
+            style="@style/txtInterregular14" tools:text="Your Name"/>
         <View android:background="@color/black_900_4c"
             android:id="@+id/lineLineThree"
             android:layout_gravity="center_horizontal"
@@ -92,16 +92,21 @@
             android:layout_height="@dimen/_1pxv"
             android:layout_marginEnd="@dimen/_17pxh"
             android:layout_marginStart="@dimen/_17pxh" android:layout_width="@dimen/_277pxh"/>
-        <TextView android:ellipsize="end" android:id="@+id/txtEmail"
-            android:layout_gravity="start"
+
+        <TextView
+            android:id="@+id/txtEmail"
+            style="@style/txtInterextralight14"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/_44pxh"
+            android:layout_gravity="start"
             android:layout_marginStart="@dimen/_44pxh"
             android:layout_marginTop="@dimen/_31pxv"
-            android:layout_width="wrap_content"
+            android:layout_marginEnd="@dimen/_44pxh"
+            android:ellipsize="end"
             android:singleLine="true"
             android:text="@{rdView2OneVM.rdView2OneModel.txtEmail}"
-            style="@style/txtInterextralight14" tools:text="@string/lbl_email"/>
+            tools:text="@string/lbl_email" />
+
         <EditText android:ellipsize="end"
             android:hint="@string/msg_akankshagarg301"
             android:id="@+id/etEmailOne"

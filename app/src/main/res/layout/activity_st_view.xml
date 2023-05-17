@@ -24,26 +24,29 @@
             android:layout_marginTop="@dimen/_117pxv"
             android:layout_width="match_parent"
             android:orientation="horizontal" style="@style/groupStylegray_900cornerRadius">
-            <TextView android:ellipsize="end"
+
+            <TextView
                 android:id="@+id/txtGetStarted"
+                style="@style/txtInterextralight30"
+                android:layout_width="match_parent"
+
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_11pxv"
-                android:layout_marginStart="@dimen/_32pxh"
-                android:layout_marginTop="@dimen/_16pxv"
-                android:layout_weight="0.87" android:layout_width="0dp"
+                android:ellipsize="end"
+                android:padding="5dp"
                 android:singleLine="true"
                 android:text="@{stViewVM.stViewModel.txtGetStarted}"
-                style="@style/txtInterextralight30" tools:text="@string/lbl_get_started"/>
-            <ImageView android:id="@+id/imageArrowThree"
-                android:layout_height="@dimen/_3pxh"
-                android:layout_marginBottom="@dimen/_29pxv"
-                android:layout_marginEnd="@dimen/_34pxh"
-                android:layout_marginStart="@dimen/_21pxh"
-                android:layout_marginTop="@dimen/_33pxv"
-                android:layout_width="@dimen/_25pxh"
-                android:scaleType="fitXY"
-                android:src="@drawable/img_arrow3"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_arrow3"/>
+                android:textAlignment="center"
+                tools:text="@string/lbl_get_started" />
+<!--            <ImageView android:id="@+id/imageArrowThree"-->
+<!--                android:layout_height="@dimen/_3pxh"-->
+<!--                android:layout_marginBottom="@dimen/_29pxv"-->
+<!--                android:layout_marginEnd="@dimen/_34pxh"-->
+<!--                android:layout_marginStart="@dimen/_21pxh"-->
+<!--                android:layout_marginTop="@dimen/_33pxv"-->
+<!--                android:layout_width="@dimen/_25pxh"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/img_arrow3"-->
+<!--                tools:ignore="ContentDescription" tools:src="@drawable/img_arrow3"/>-->
         </LinearLayout>
     </LinearLayout>
 </layout>

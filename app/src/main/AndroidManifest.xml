@@ -3,10 +3,10 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application android:allowBackup="false"
-        android:icon="@drawable/img_whatsappimage_153x130"
-        android:label="Milky-Wayy" android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
         android:name="com.utkarshsapplication.app.appcomponents.di.MyApp"
-        android:roundIcon="@drawable/img_whatsappimage_153x130"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
         <activity
             android:name="com.utkarshsapplication.app.modules.rdviewnone.ui.RdViewNOneActivity" android:screenOrientation="portrait"/>

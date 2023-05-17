@@ -9,6 +9,7 @@ import com.utkarshsapplication.app.appcomponents.base.BaseActivity
 import com.utkarshsapplication.app.databinding.ActivityThView2OneBinding
 import com.utkarshsapplication.app.modules.thview2one.`data`.viewmodel.ThView2OneVM
 import com.utkarshsapplication.app.modules.thview3.ui.ThView3Activity
+import com.utkarshsapplication.app.modules.thview4.ui.ThView4Activity
 import kotlin.String
 import kotlin.Unit
 
@@ -22,16 +23,16 @@ class ThView2OneActivity : BaseActivity<ActivityThView2OneBinding>(R.layout.acti
   }
 
   override fun setUpClicks(): Unit {
-    binding.txtLanguageOne.setOnClickListener {
-      val destIntent = ThView3Activity.getIntent(this, null)
-      startActivity(destIntent)
-    }
-    binding.linearColumnlanguageOne.setOnClickListener {
-      val destIntent = ThView3Activity.getIntent(this, null)
-      startActivity(destIntent)
-    }
+//    binding.txtLanguageOne.setOnClickListener {
+//      val destIntent = ThView3Activity.getIntent(this, null)
+//      startActivity(destIntent)
+//    }
+//    binding.linearColumnlanguage.setOnClickListener {
+//      val destIntent =Intent(this,ThView3Activity::class.java)
+//      startActivity(destIntent)
+//    }
     binding.viewRectangleNine.setOnClickListener {
-      val destIntent = ThView3Activity.getIntent(this, null)
+      val destIntent =Intent(this,ThView4Activity::class.java)
       startActivity(destIntent)
     }
   }
