@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:singleLine="true"
             android:text="@{rdView2VM.rdView2Model.txtAkankshaGarg}"
-            style="@style/txtInterregular14" tools:text="@string/lbl_akanksha_garg"/>
+            style="@style/txtInterregular14" tools:text="Your Name"/>
         <View android:background="@color/black_900_4c"
             android:id="@+id/lineLineThree"
             android:layout_gravity="center_horizontal"

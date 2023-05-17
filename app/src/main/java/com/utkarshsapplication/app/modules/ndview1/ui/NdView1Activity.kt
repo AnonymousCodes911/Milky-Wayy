@@ -23,19 +23,19 @@ class NdView1Activity : BaseActivity<ActivityNdView1Binding>(R.layout.activity_n
 
   override fun setUpClicks(): Unit {
     binding.imageArrowOne.setOnClickListener {
-      val destIntent = NdView2Activity.getIntent(this, null)
+      val destIntent = Intent(this, NdView2Activity::class.java)
       startActivity(destIntent)
     }
-    binding.txtNextStep.setOnClickListener {
-      val destIntent = NdView2Activity.getIntent(this, null)
-      startActivity(destIntent)
-    }
-    binding.linearRownextstep.setOnClickListener {
-      val destIntent = NdView2Activity.getIntent(this, null)
-      startActivity(destIntent)
-    }
+//    binding.txtNextStep.setOnClickListener {
+//      val destIntent = NdView2Activity.getIntent(this, null)
+////      startActivity(destIntent)
+////    }
+////    binding.linearRownextstep.setOnClickListener {
+////      val destIntent = NdView2Activity.getIntent(this, null)
+////      startActivity(destIntent)
+//    }
     binding.btnSkip.setOnClickListener {
-      val destIntent = RdView1Activity.getIntent(this, null)
+      val destIntent = Intent(this, RdView1Activity::class.java)
       startActivity(destIntent)
     }
   }

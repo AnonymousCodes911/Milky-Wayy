@@ -112,9 +112,10 @@
                 android:paddingTop="@dimen/_5pxv"
                 android:paddingEnd="@dimen/_30pxh">
 
-                <TextView
+                <Button
                     android:id="@+id/txtNextStep"
                     style="@style/txtIntermedium12"
+                    android:backgroundTint="#432818"
                     android:layout_width="115dp"
                     android:layout_height="30dp"
                     android:layout_gravity="center"
