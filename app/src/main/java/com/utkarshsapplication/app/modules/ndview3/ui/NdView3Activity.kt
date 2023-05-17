@@ -7,6 +7,7 @@ import androidx.activity.viewModels
 import com.utkarshsapplication.app.R
 import com.utkarshsapplication.app.appcomponents.base.BaseActivity
 import com.utkarshsapplication.app.databinding.ActivityNdView3Binding
+import com.utkarshsapplication.app.modules.ndview1.ui.NdView1Activity
 import com.utkarshsapplication.app.modules.ndview2.ui.NdView2Activity
 import com.utkarshsapplication.app.modules.ndview3.`data`.viewmodel.NdView3VM
 import com.utkarshsapplication.app.modules.rdview1.ui.RdView1Activity
@@ -27,7 +28,7 @@ class NdView3Activity : BaseActivity<ActivityNdView3Binding>(R.layout.activity_n
       startActivity(destIntent)
     }
     binding.btnPrevious.setOnClickListener {
-      val destIntent = NdView2Activity.getIntent(this, null)
+      val destIntent = Intent(this, NdView2Activity::class.java)
       startActivity(destIntent)
     }
   }
