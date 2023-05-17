@@ -9,7 +9,10 @@ import com.utkarshsapplication.app.appcomponents.base.BaseActivity
 import com.utkarshsapplication.app.databinding.ActivityThView2OneBinding
 import com.utkarshsapplication.app.modules.thview2one.`data`.viewmodel.ThView2OneVM
 import com.utkarshsapplication.app.modules.thview3.ui.ThView3Activity
+<<<<<<< HEAD
 import com.utkarshsapplication.app.modules.thview4.ui.ThView4Activity
+=======
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
 import kotlin.String
 import kotlin.Unit
 
@@ -23,6 +26,7 @@ class ThView2OneActivity : BaseActivity<ActivityThView2OneBinding>(R.layout.acti
   }
 
   override fun setUpClicks(): Unit {
+<<<<<<< HEAD
 //    binding.txtLanguageOne.setOnClickListener {
 //      val destIntent = ThView3Activity.getIntent(this, null)
 //      startActivity(destIntent)
@@ -33,6 +37,18 @@ class ThView2OneActivity : BaseActivity<ActivityThView2OneBinding>(R.layout.acti
 //    }
     binding.viewRectangleNine.setOnClickListener {
       val destIntent =Intent(this,ThView4Activity::class.java)
+=======
+    binding.txtLanguageOne.setOnClickListener {
+      val destIntent = ThView3Activity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.linearColumnlanguageOne.setOnClickListener {
+      val destIntent = ThView3Activity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.viewRectangleNine.setOnClickListener {
+      val destIntent = ThView3Activity.getIntent(this, null)
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
       startActivity(destIntent)
     }
   }

@@ -31,7 +31,11 @@ class RdView3OneActivity : BaseActivity<ActivityRdView3OneBinding>(R.layout.acti
       val destIntent = RdView4Activity.getIntent(this, null)
       startActivity(destIntent)
     }
+<<<<<<< HEAD
     binding.imageArrowOne.setOnClickListener {
+=======
+    binding.imageArrowleft.setOnClickListener {
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
       finish()
     }
   }

@@ -5,8 +5,13 @@ buildscript {
         google()
         jcenter()
     }
+}
     dependencies {
+<<<<<<< HEAD
         classpath 'com.android.tools.build:gradle:7.3.1'
+=======
+        classpath 'com.android.tools.build:gradle:7.4.2'
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files

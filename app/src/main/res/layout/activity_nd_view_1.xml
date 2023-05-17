@@ -51,6 +51,7 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/img_group2"
                 tools:ignore="ContentDescription" tools:src="@drawable/img_group2"/>
+<<<<<<< HEAD
 
             <LinearLayout
                 android:id="@+id/linearRowskip"
@@ -75,17 +76,44 @@
                     android:textAllCaps="false"
                     tools:text="@string/lbl_skip" />
 
+=======
+            <LinearLayout android:id="@+id/linearRowskip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_29pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnSkip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:paddingBottom="@dimen/_5pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_5pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_skip"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRoundedOutline" tools:text="@string/lbl_skip"/>
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
 
                 <LinearLayout
                     android:id="@+id/linearRownextstep"
                     style="@style/groupStylegray_1"
+<<<<<<< HEAD
                     android:layout_width="60dp"
                     android:layout_height="match_parent"
                     android:layout_marginStart="@dimen/_51pxh"
+=======
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_46pxh"
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
                     android:layout_weight="0.5"
                     android:orientation="horizontal">
 
                     <Button
+<<<<<<< HEAD
                         android:id="@+id/btnNext"
                         style="@style/txtIntermedium12"
                         android:layout_width="match_parent"
@@ -96,6 +124,35 @@
 
                         android:text="Next"/>
 
+=======
+                        android:id="@+id/txtNextStep"
+                        style="@style/txtIntermedium12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_28pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_marginBottom="@dimen/_3pxv"
+                        android:layout_weight="0.74"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="Next Step"
+                        android:backgroundTint="#432818"
+
+                        tools:text="@string/lbl_next_step" />
+
+                    <Button
+                        android:id="@+id/imageArrowOne"
+                        android:layout_width="@dimen/_20pxh"
+                        android:layout_height="@dimen/_1pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_13pxv"
+                        android:layout_marginEnd="@dimen/_19pxh"
+                        android:layout_marginBottom="@dimen/_11pxv"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrow1"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_arrow1" />
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

@@ -59,6 +59,7 @@
                     android:singleLine="true"
                     android:text="@{thView2OneVM.thView2OneModel.txtLanguageOne}"
                     style="@style/txtInterregular20" tools:text="@string/lbl_english"/>
+<<<<<<< HEAD
 
                 <View
                     android:id="@+id/viewRectangleNine"
@@ -66,6 +67,13 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="start"
                     android:background="@drawable/rectangle_bg_lime_700_21_radius_5" />
+=======
+                <View
+                    android:background="@drawable/rectangle_bg_lime_700_21_radius_5"
+                    android:id="@+id/viewRectangleNine"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_250pxh"/>
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
             </FrameLayout>
             <TextView android:ellipsize="end"
                 android:id="@+id/txtLanguageTwo"

@@ -68,6 +68,7 @@
             android:singleLine="true"
             android:text="@{rdView2VM.rdView2Model.txtName}"
             style="@style/txtInterextralight14" tools:text="@string/lbl_name"/>
+<<<<<<< HEAD
 
         <EditText
             android:id="@+id/editTextTextPersonName"
@@ -88,16 +89,47 @@
             android:textColorHint="@color/black_900"
             tools:ignore="Autofill" />
 
+=======
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtAkankshaGarg"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_42pxh"
+            android:layout_marginStart="@dimen/_42pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{rdView2VM.rdView2Model.txtAkankshaGarg}"
+            style="@style/txtInterregular14" tools:text="Your Name"/>
+        <View android:background="@color/black_900_4c"
+            android:id="@+id/lineLineThree"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_2pxv" android:layout_width="@dimen/_277pxh"/>
+        <View android:background="@color/black_900_4c"
+            android:id="@+id/lineLineFour"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh" android:layout_width="@dimen/_277pxh"/>
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
         <TextView android:ellipsize="end" android:id="@+id/txtEmail"
             android:layout_gravity="start"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_44pxh"
             android:layout_marginStart="@dimen/_44pxh"
+<<<<<<< HEAD
             android:layout_marginTop="10dp"
+=======
+            android:layout_marginTop="@dimen/_31pxv"
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
             android:layout_width="wrap_content"
             android:singleLine="true"
             android:text="@{rdView2VM.rdView2Model.txtEmail}"
             style="@style/txtInterextralight14" tools:text="@string/lbl_email"/>
+<<<<<<< HEAD
         <EditText
             android:id="@+id/etEmailOne"
             style="@style/etInterregular14"
@@ -116,16 +148,39 @@
 
             android:textColorHint="@color/black_900"
             tools:ignore="Autofill"/>
+=======
+        <EditText android:ellipsize="end"
+            android:hint="@string/msg_akankshagarg301"
+            android:id="@+id/etEmailOne"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_7pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_3pxh"
+            android:singleLine="true"
+            android:text="@={rdView2VM.rdView2Model.etEmailOneValue}"
+            android:textColorHint="@color/black_900"
+            style="@style/etInterregular14" tools:ignore="Autofill"/>
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
         <TextView android:ellipsize="end" android:id="@+id/txtPassword"
             android:layout_gravity="start"
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_42pxh"
             android:layout_marginStart="@dimen/_42pxh"
+<<<<<<< HEAD
             android:layout_marginTop="10dp"
+=======
+            android:layout_marginTop="@dimen/_32pxv"
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
             android:layout_width="wrap_content"
             android:singleLine="true"
             android:text="@{rdView2VM.rdView2Model.txtPassword}"
             style="@style/txtInterextralight14" tools:text="@string/lbl_password"/>
+<<<<<<< HEAD
 
             <EditText android:ellipsize="end"
                 android:id="@+id/txtPasswordOne"
@@ -148,6 +203,38 @@
 
 
 
+=======
+        <LinearLayout android:id="@+id/linearRowpasswordOne"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPasswordOne"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_weight="0.79" android:layout_width="0dp"
+                android:singleLine="true"
+                android:text="@{rdView2VM.rdView2Model.txtPasswordOne}"
+                style="@style/txtInterregular14" tools:text="@string/lbl"/>
+            <ImageView android:id="@+id/imagePasswordOne"
+                android:layout_height="@dimen/_16pxh"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginStart="@dimen/_160pxh"
+                android:layout_width="@dimen/_22pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_password1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_password1"/>
+        </LinearLayout>
+        <View android:background="@color/black_900_4c"
+            android:id="@+id/lineLineSix"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginEnd="@dimen/_26pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_9pxv" android:layout_width="@dimen/_277pxh"/>
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
         <LinearLayout android:gravity="start"
             android:id="@+id/linearColumncontinue"
             android:layout_height="wrap_content"
@@ -203,8 +290,12 @@
                 android:layout_width="match_parent" android:orientation="horizontal">
                 <FrameLayout android:id="@+id/frameStackfbremovebgpre"
                     android:layout_height="@dimen/_30pxv"
+<<<<<<< HEAD
                     android:layout_width="@dimen/_135pxh" style="@style/groupStylegray_300cornerRadius"
                     android:layout_marginBottom="2dp">
+=======
+                    android:layout_width="@dimen/_135pxh" style="@style/groupStylegray_300cornerRadius">
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
                     <ImageView android:id="@+id/imageFbremovebgpre"
                         android:layout_gravity="center"
                         android:layout_height="@dimen/_18pxh"
@@ -220,7 +311,10 @@
                 <FrameLayout android:id="@+id/frameStacktwitterremoveb"
                     android:layout_height="@dimen/_30pxv"
                     android:layout_marginStart="@dimen/_24pxh"
+<<<<<<< HEAD
                     android:layout_marginBottom="2dp"
+=======
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
                     android:layout_width="@dimen/_135pxh" style="@style/groupStylegray_300cornerRadius">
                     <ImageView android:id="@+id/imageTwitterremoveb"
                         android:layout_gravity="center"

@@ -108,11 +108,18 @@
                 android:layout_marginStart="@dimen/_51pxh"
                 android:layout_weight="0.5"
                 android:orientation="horizontal"
+<<<<<<< HEAD
                 >
+=======
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_5pxv"
+                android:paddingEnd="@dimen/_30pxh">
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
 
                 <Button
                     android:id="@+id/txtNextStep"
                     style="@style/txtIntermedium12"
+<<<<<<< HEAD
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -121,6 +128,20 @@
 
                     android:text="Next"
                      />
+=======
+                    android:backgroundTint="#432818"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:paddingStart="4.33dp"
+                    android:singleLine="true"
+                    android:text="@{ndView2VM.ndView2Model.txtNextStep}"
+
+                    android:textAlignment="center"
+                    tools:text="@string/lbl_next_step" />
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
 
 
             </LinearLayout>

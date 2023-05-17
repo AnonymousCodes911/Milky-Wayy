@@ -22,10 +22,17 @@ class StViewActivity : BaseActivity<ActivityStViewBinding>(R.layout.activity_st_
       val destIntent = NdView1Activity.getIntent(this, null)
       startActivity(destIntent)
     }
+<<<<<<< HEAD
 //    binding.imageArrowThree.setOnClickListener {
 //      val destIntent = NdView1Activity.getIntent(this, null)
 //      startActivity(destIntent)
 //    }
+=======
+    binding.imageArrowThree.setOnClickListener {
+      val destIntent = NdView1Activity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+>>>>>>> fe0bdb01b8eb0835565bd057cf36f49df4c05e50
     binding.linearRowgetstarted.setOnClickListener {
       val destIntent = NdView1Activity.getIntent(this, null)
       startActivity(destIntent)
